@@ -1,6 +1,6 @@
 # Roadmap 
-- [] First executable and password obfuscation
-- [] Second executable 
+- [OK] First executable and password obfuscation
+- [OK] Second executable 
 - [] Image/Document generation
 
 # Compile
