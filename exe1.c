@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include <stdio.h>
 
 int main(int argc, char **argv)
 {
@@ -10,6 +11,21 @@ int main(int argc, char **argv)
 	if(argv[1] == NULL)
 	{
 		return EXIT_FAILURE;
+	}
+
+	if(argv[1][0] == 'h')
+	{
+		if(argv[1][1] == 'i')
+		{
+			if(argv[1][2] == 'n')
+			{
+				if(argv[1][3] == 't')
+				{
+					printf("Ahoy :)\nI accept a password of 12 characters, good luck !\n");
+					return EXIT_SUCCESS;
+				}
+			}
+		}
 	}
 
 	int i = 0;
