@@ -5,3 +5,6 @@
 
 # Compile
 - `make`
+
+# Make the final archive
+- `make archive`
