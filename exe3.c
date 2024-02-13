@@ -228,5 +228,7 @@ int main()
 	ret = fclose(F);
 	if(ret != 0){printf("Error while closing the file :(\n");return EXIT_FAILURE;}
 
+	printf("Oh look at your files !!!\nMaybe something interesting has appeared :)\n");
+
 	return EXIT_SUCCESS;
 }
