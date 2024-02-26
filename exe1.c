@@ -10,6 +10,7 @@ int main(int argc, char **argv)
 
 	if(argv[1] == NULL)
 	{
+		printf("Wrong password sry :(\n");
 		return EXIT_FAILURE;
 	}
 
@@ -37,6 +38,7 @@ int main(int argc, char **argv)
 
 	if(len != 12)
 	{
+		printf("Wrong password sry :(\n");
 		return EXIT_FAILURE;
 	}
 
@@ -46,10 +48,12 @@ int main(int argc, char **argv)
 
 		if(ret == -1)
 		{
+			printf("Wrong password sry :(\n");
 			return EXIT_FAILURE;
 		}
 		return EXIT_SUCCESS;
 	}
 
+	printf("Wrong password sry :(\n");
 	return EXIT_FAILURE;
 }
