@@ -8,6 +8,6 @@ compile3: exe3.c
 	gcc -O3 -Wall -Wextra -fstack-protector-all -static -fvisibility=hidden -static -s exe3.c -o exe3
 archive:
 	mkdir $(DIR)
-	cp exe1 exe2 $(DIR)
+	cp exe1 exe2 note_de_vuln.pdf schema_architecture.png $(DIR)
 	tar czvf $(DIR).tar.gz $(DIR)
 	rm -r $(DIR)
